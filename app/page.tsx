@@ -6,6 +6,7 @@ import { NewsCard } from "@/components/news-card"
 import { SearchBar } from "@/components/search-bar"
 import { CategoryFilter } from "@/components/category-filter"
 import { SourceFilter } from "@/components/source-filter"
+import Image from "next/image"
 
 // Enhanced mock news data with categories and URLs
 const mockNews = [
@@ -159,8 +160,9 @@ const displayNews = articles
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">NewsHub</h1>
+            <div className="flex-shrink-0 flex items-center gap-2">
+              <Image src="/logo.svg" alt="Newsly Logo" width={36} height={36} className="h-9 w-9" />
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Newsly</h1>
             </div>
 
             {/* Theme Toggle */}
