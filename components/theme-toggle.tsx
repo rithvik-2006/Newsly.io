@@ -50,7 +50,7 @@ export function ThemeToggle() {
       variant="outline"
       size="icon"
       onClick={toggleTheme}
-      className="rounded-full bg-white text-gray-900 border-gray-300 hover:bg-gray-50 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 transition-all duration-300"
+      className="rounded-full bg-white text-gray-900 border-gray-300 hover:bg-gray-50 dark:bg-black dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 transition-all duration-300"
     >
       {isDark ? (
         <Moon className="h-5 w-5 rotate-0 scale-100 transition-all duration-300" />

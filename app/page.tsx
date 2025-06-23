@@ -157,7 +157,7 @@ const displayNews = articles
     <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300">
       {/* Navigation Bar */}
       <nav className="sticky top-0 z-50 bg-white/80 dark:bg-black backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-5 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center gap-2">
@@ -165,8 +165,19 @@ const displayNews = articles
               <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Newsly</h1>
             </div>
 
-            {/* Theme Toggle */}
-            <ThemeToggle />
+            {/* Right Side: Theme Toggle & GitHub */}
+            <div className="flex items-center gap-4">
+              <a
+                href="https://github.com/rithvik-2006/Newsly.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub Repository"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <Image src="/github.svg" alt="Github" width={36} height={36} className="h-9 w-9" />
+              </a>
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </nav>

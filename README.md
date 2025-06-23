@@ -4,7 +4,7 @@ Welcome to **Newsly**, a sleek, modern web app built with **Next.js** and **Tail
 
 ## 🌍 Live Preview
 
-> [https://newsly.vercel.app](https://newsly.vercel.app) <!-- Replace with your actual link -->
+> [https://newsly.vercel.app](https://newsly-io.vercel.app/) <!-- Replace with your actual link -->
 
 ## 📌 Features
 
